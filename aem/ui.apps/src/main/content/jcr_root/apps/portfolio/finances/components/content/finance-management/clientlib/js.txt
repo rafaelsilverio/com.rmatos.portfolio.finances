@@ -1,0 +1,2 @@
+#base=js
+finance-admin-container.js

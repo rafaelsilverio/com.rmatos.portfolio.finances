@@ -1,0 +1,7 @@
+<sly data-sly-use.finance="com.rmatos.portfolio.finances.aem.core.controller.FinanceGenericController"></sly>
+<div class="finance-admin-container-placeholder">
+    <finance-admin-container finance-endpoint="${finance.financeEndpoint}" />
+</div>
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientLib.all @ categories='rmatos.portfolio.finances.finance-management'}" data-sly-unwrap/>
+
