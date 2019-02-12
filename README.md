@@ -1,1 +1,1 @@
-# com.rmatos.portfolio.finances
+An AEM + Microservices repository structure. 
